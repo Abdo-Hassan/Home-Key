@@ -9,9 +9,11 @@ export default function Index() {
         justifyContent: "center",
         alignItems: "center",
       }}>
+      <Text className="font-bold text-5xl my-10 text-red-500">
+        Welcome to your Home key
+      </Text>
       <Link href="/sign-in">Sign In</Link>
-      <Link href="/explore">Explore</Link>
-      <Link href="/profile">Profile</Link>
+      <Link href="/Explore">Explore</Link>
       <Link href="/properties/1">Property</Link>
     </View>
   );
