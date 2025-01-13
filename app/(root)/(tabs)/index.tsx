@@ -9,7 +9,8 @@ export default function Index() {
         justifyContent: "center",
         alignItems: "center",
       }}>
-      <Link href="/sign-in"></Link>
+      <Text className="font-rubik-bold text-5xl">Test font</Text>
+      <Link href="/sign-in">Sign In</Link>
       <Link href="/Explore">Explore</Link>
       <Link href="/properties/1">Property</Link>
     </View>
